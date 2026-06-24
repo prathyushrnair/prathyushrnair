@@ -2,6 +2,8 @@
 
 <!--
 **prathyushrnair/prathyushrnair** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/3b429249-9cbb-412d-b426-ab39290bfdf3" />
+
 
 Here are some ideas to get you started:
 

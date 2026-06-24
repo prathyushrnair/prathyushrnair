@@ -1,5 +1,5 @@
 # README 
-<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/3b429249-9cbb-412d-b426-ab39290bfdf3" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3b429249-9cbb-412d-b426-ab39290bfdf3" />
 
 
 - 🔭 I’m currently working on Autonomous Navigation

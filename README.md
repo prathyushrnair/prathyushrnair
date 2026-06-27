@@ -1,5 +1,8 @@
 # README 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3b429249-9cbb-412d-b426-ab39290bfdf3" />
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Milan%20Manoj&fontSize=90&fontAlign=50&fontAlignY=40&desc=AI%20Developer%20%7C%20Full-Stack%20%7C%20Robotics%20Operator&descAlign=50&descAlignY=60&animation=twinkling"/>
+</div>
+
 
 
 - 🔭 I’m currently working on Autonomous Navigation

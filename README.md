@@ -3,7 +3,7 @@
   <img width="100%" src="https://vercel.app"/>
 </div>
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Prathyush%20R_Nair&fontSize=90&fontAlign=50&fontAlignY=40&desc=AI%20Developer%20%7C%20Full-Stack%20%7C%20Robotics%20Operator&descAlign=50&descAlignY=60&animation=twinkling"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Prathyush%20R_Nair&fontSize=90&fontAlign=50&fontAlignY=40&desc=AI%20Developer%20%7C%20Perception Handling%20%7C%20Robotics%20Operator&descAlign=50&descAlignY=60&animation=twinkling"/>
 </div>
 
 

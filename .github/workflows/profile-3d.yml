@@ -1,24 +1,44 @@
 name: GitHub-Profile-3D-Contrib
+
 on:
-  schedule: [{cron: "0 18 * * *"}]
   workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * *"
+
 permissions:
   contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          persist-credentials: true
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+          fetch-depth: 0
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push Changes
+
+      - name: Commit changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "Generated 3D contribution matrix" || exit 0
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile-3d-contrib
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "Update 3D contribution graph"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

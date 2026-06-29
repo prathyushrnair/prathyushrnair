@@ -18,5 +18,4 @@
 - 📫 How to reach me: mail:prathyushrnair@gmail.com 
 - ⚡ Fun fact: Just a regualr normal mtf... 
 
-### Contribution Activity 3D Matrix
-![](./profile-3d-contrib/profile-green-animate.svg)
+
